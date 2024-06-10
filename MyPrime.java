@@ -34,6 +34,7 @@ public class MyPrime {
         if (0 == rem) { 
             n += 2; 
         } else if (1 == rem) { 
+            // System.err.println("rem is 1");
             n += 4; 
         }
         while (true) { 
